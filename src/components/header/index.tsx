@@ -1,8 +1,15 @@
 import React from "react";
-import { Image, TouchableOpacity, Text, View, TextInput, Button } from "react-native";
+import {
+  Image,
+  TouchableOpacity,
+  Text,
+  View,
+  TextInput,
+  Button,
+} from "react-native";
 import { styles } from "./styles";
 import { InputSearch } from "../inputSearch";
-import perfsteam from '../../../assets/perfsteam.png'
+import perfsteam from "../../../assets/perfsteam.png";
 
 export const Header = () => {
   return (
@@ -21,7 +28,7 @@ export const Header = () => {
           </TouchableOpacity>
           <Text style={styles.textoCarteira}> (R$ 0,00)</Text>
         </View>
-      <Image source={perfsteam} style={styles.fotoPerfil}/>
+        <Image source={perfsteam} style={styles.fotoPerfil} />
       </View>
     </View>
   );

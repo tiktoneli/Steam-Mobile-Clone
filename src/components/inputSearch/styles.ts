@@ -6,7 +6,7 @@ export const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "flex-start",
     alignItems: "center",
-    backgroundColor: '#292C33',
+    backgroundColor: "#292C33",
     opacity: 0.8,
     margin: 10,
     padding: Platform.OS === "android" ? 15 : 10,
@@ -24,8 +24,8 @@ export const styles = StyleSheet.create({
   icone: {
     marginLeft: 140,
   },
-  inputText:{
+  inputText: {
     fontSize: 15,
     fontWeight: "bold",
-  }
+  },
 });
