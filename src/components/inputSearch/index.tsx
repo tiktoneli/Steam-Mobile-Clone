@@ -16,13 +16,11 @@ export const InputSearch = () => {
   return (
     <View style={styles.input}>
       <FontAwesome5 name="steam" size={28} color="#62626A" />
-      <TouchableOpacity>
-        <TextInput
-          style={styles.inputText}
-          placeholder="  STEAM©"
-          placeholderTextColor="#62626A"
-        ></TextInput>
-      </TouchableOpacity>
+      <TextInput
+        style={styles.inputText}
+        placeholder="  STEAM©"
+        placeholderTextColor="#62626A"
+      ></TextInput>
       <Ionicons style={styles.icone} name="search" size={32} color="#62626A" />
       <View>
         <TouchableOpacity>

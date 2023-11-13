@@ -24,7 +24,7 @@ export const styles = StyleSheet.create({
     resizeMode: "contain",
   },
   featuredImage: {
-    flex: 1,
+    flex: 0,
     maxWidth: 500,
     maxHeight: 200,
   },

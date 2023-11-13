@@ -30,7 +30,7 @@ export const styles = StyleSheet.create({
   fotoPerfil: {
     maxWidth: 50,
     height: 50,
-    borderRadius: 1,
+    borderRadius: 2,
     marginRight: 5,
     flex: 1,
     marginBottom: 55,
