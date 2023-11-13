@@ -16,7 +16,7 @@ export const Footer = () => {
           style={{ transform: [{ rotateY: "180deg" }] }}
           name="pricetag"
           size={30}
-          color="white"
+          color="#1C9EFE"
         />
       </TouchableOpacity>
       <TouchableOpacity>
