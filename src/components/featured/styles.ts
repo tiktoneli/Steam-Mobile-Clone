@@ -20,6 +20,7 @@ export const styles = StyleSheet.create({
   },
   imageRecommended: {
     width: 310,
+    height: 300,
     maxHeight: 230,
     resizeMode: "contain",
   },
