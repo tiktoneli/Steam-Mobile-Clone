@@ -12,6 +12,8 @@ export const styles = StyleSheet.create({
     borderTopWidth: 0.5,
     borderBottomWidth: 0.5,
     maxHeight: 57,
+    justifyContent:'space-between',
+    alignItems:'center',
   },
   textDestaques: {
     paddingLeft: 15,

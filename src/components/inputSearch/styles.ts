@@ -27,5 +27,7 @@ export const styles = StyleSheet.create({
   inputText: {
     fontSize: 15,
     fontWeight: "bold",
+    position:'absolute',
+    marginLeft:45
   },
 });

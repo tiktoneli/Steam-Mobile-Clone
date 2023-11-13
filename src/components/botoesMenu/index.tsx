@@ -14,49 +14,85 @@ export const BotoesMenu = () => {
   return (
     <View style={{ height: "77%" }}>
       <View style={styles.container}>
-        <Ionicons
-          style={{ transform: [{ rotateY: "180deg" }] }}
-          name="pricetag"
-          size={20}
-          color="white"
-        />
-        <Text style={styles.textDestaques}>Loja</Text>
-        <Text style={styles.textWallet}>(R$0,00)</Text>
-        <Text style={styles.textDestaques}>V</Text>
+        <View
+          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+        >
+          <Ionicons
+            style={{ transform: [{ rotateY: "180deg" }] }}
+            name="pricetag"
+            size={20}
+            color="white"
+          />
+          <Text style={styles.textDestaques}>Loja</Text>
+          <Text style={styles.textWallet}>(R$0,00)</Text>
+        </View>
+        <View style={{ paddingRight: 20 }}>
+          <Text style={styles.textDestaques}>V</Text>
+        </View>
       </View>
       <View style={styles.container}>
-        <Ionicons
-          style={{ transform: [{ scaleX: -1 }] }}
-          name="newspaper-outline"
-          size={20}
-          color="white"
-        />
-        <Text style={styles.textDestaques}>Notícias</Text>
+        <View
+          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+        >
+          <Ionicons
+            style={{ transform: [{ scaleX: -1 }] }}
+            name="newspaper-outline"
+            size={20}
+            color="white"
+          />
+          <Text style={styles.textDestaques}>Notícias</Text>
+        </View>
       </View>
       <View style={styles.container}>
-        <Ionicons name="md-shield" size={20} color="white" />
-        <Text style={styles.textDestaques}>Steam Guard</Text>
+        <View
+          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+        >
+          <Ionicons name="md-shield" size={20} color="white" />
+          <Text style={styles.textDestaques}>Steam Guard</Text>
+        </View>
       </View>
       <View style={styles.container}>
-        <Octicons name="bell-fill" size={20} color="white" />
-        <Text style={styles.textDestaques}>Notificações</Text>
+        <View
+          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+        >
+          <Octicons name="bell-fill" size={20} color="white" />
+          <Text style={styles.textDestaques}>Notificações</Text>
+        </View>
       </View>
       <View style={styles.container}>
-        <MaterialIcons name="check" size={22} color="white" />
-        <Text style={styles.textDestaques}>Confirmações</Text>
+        <View
+          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+        >
+          <MaterialIcons name="check" size={22} color="white" />
+          <Text style={styles.textDestaques}>Confirmações</Text>
+        </View>
       </View>
       <View style={styles.container}>
-        <MaterialIcons name="my-library-books" size={20} color="white" />
-        <Text style={styles.textDestaques}>Biblioteca</Text>
+        <View
+          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+        >
+          <MaterialIcons name="my-library-books" size={20} color="white" />
+          <Text style={styles.textDestaques}>Biblioteca</Text>
+        </View>
       </View>
       <View style={styles.container}>
-        <FontAwesome5 name="users" size={20} color="white" />
-        <Text style={styles.textDestaques}>Comunidade</Text>
-        <Text style={styles.textDestaques}>V</Text>
+        <View
+          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+        >
+          <FontAwesome5 name="users" size={20} color="white" />
+          <Text style={styles.textDestaques}>Comunidade</Text>
+        </View>
+        <View style={{ paddingRight: 20 }}>
+          <Text style={styles.textDestaques}>V</Text>
+        </View>
       </View>
       <View style={styles.container}>
-        <Ionicons name="chatbubble-ellipses" size={20} color="white" />
-        <Text style={styles.textDestaques}>Conversa</Text>
+        <View
+          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+        >
+          <Ionicons name="chatbubble-ellipses" size={20} color="white" />
+          <Text style={styles.textDestaques}>Conversa</Text>
+        </View>
       </View>
       <View style={styles.containerMisc}>
         <Ionicons name="md-megaphone" size={14} color="grey" />

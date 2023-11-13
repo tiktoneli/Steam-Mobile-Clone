@@ -15,7 +15,7 @@ export const InputSearch = () => {
 
   return (
     <View style={styles.input}>
-      <FontAwesome5 name="steam" size={28} color="#62626A" />
+        <FontAwesome5 name="steam" size={28} color="#62626A" />
       <TextInput
         style={styles.inputText}
         placeholder="  STEAM©"
