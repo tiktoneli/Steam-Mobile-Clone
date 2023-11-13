@@ -22,7 +22,7 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   icone: {
-    marginLeft: 140,
+    marginLeft: 190,
   },
   inputText: {
     fontSize: 15,
