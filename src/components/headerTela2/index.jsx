@@ -4,8 +4,6 @@ import {
   TouchableOpacity,
   Text,
   View,
-  TextInput,
-  Button,
 } from "react-native";
 import { styles } from "./styles";
 import perfsteam from "../../../assets/perfsteam.png";
