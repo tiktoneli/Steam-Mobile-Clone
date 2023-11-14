@@ -47,7 +47,7 @@ export const styles = StyleSheet.create({
     backgroundColor: "#292C33",
     gap: 5,
     padding: 9,
-    maxHeight: 30,
+    maxHeight: 50,
   },
   textMisc: {
     paddingLeft: 5,

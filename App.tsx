@@ -1,15 +1,10 @@
-import { View } from "react-native";
-import { Header } from "./src/components/header";
-import { styles } from "./styles";
-import { Featured } from "./src/components/featured";
-import { Footer } from "./src/components/footer";
+import React from "react";
+import { Routes } from "./src/routes";
 
-export default function App() {
-  return (
-    <View style={styles.container}>
-        <Header />
-        <Featured />
-        <Footer />
-    </View>
-  );
-}
+const App = () => {
+	return (
+		<Routes/>
+	)
+};
+
+export default App;

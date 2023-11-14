@@ -16,7 +16,7 @@ export const InputSearch = () => {
   return (
     <View style={styles.input}>
         <FontAwesome5 name="steam" size={28} color="#62626A" />
-        <Ionicons style={styles.icone} name="search" size={32} color="#62626A" />
+        <Ionicons style={styles.icone} name="search" size={30} color="#62626A" />
       <TextInput
         style={styles.inputText}
         placeholder="  STEAM©"
@@ -25,7 +25,7 @@ export const InputSearch = () => {
       <View>
         <TouchableOpacity>
           <Entypo
-            style={{ marginLeft: 35 }}
+            style={styles.iconeDots}
             name="dots-three-vertical"
             size={24}
             color="white"

@@ -9,7 +9,7 @@ export const styles = StyleSheet.create({
     backgroundColor: "#292C33",
     opacity: 0.8,
     margin: 10,
-    padding: Platform.OS === "android" ? 15 : 10,
+    padding: Platform.OS === "android" ? 20 : 10,
     marginTop: 30,
     marginBottom: 20,
     marginRight: 90,
@@ -22,7 +22,12 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
   icone: {
-    marginLeft: 190,
+    marginLeft: 240,
+    position:'absolute'
+  },
+  iconeDots: {
+    marginLeft: 240,
+    position:'absolute'
   },
   inputText: {
     fontSize: 15,

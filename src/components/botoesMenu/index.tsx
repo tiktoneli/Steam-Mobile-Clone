@@ -13,7 +13,7 @@ import { styles } from "./styles";
 
 export const BotoesMenu = () => {
   return (
-    <View style={{ height: "77%" }}>
+    <View style={{ height: "85%" }}>
       <View style={styles.container}>
         <View
           style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
