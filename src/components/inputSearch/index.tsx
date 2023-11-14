@@ -25,7 +25,7 @@ export const InputSearch = () => {
       <View>
         <TouchableOpacity>
           <Entypo
-            style={styles.iconeDots}
+            style={{ marginLeft: 29 }}
             name="dots-three-vertical"
             size={24}
             color="white"

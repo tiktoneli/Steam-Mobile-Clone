@@ -27,6 +27,6 @@ export const styles = StyleSheet.create({
   featuredImage: {
     flex: 0,
     maxWidth: 500,
-    maxHeight: 200,
+    maxHeight: 190,
   },
 });

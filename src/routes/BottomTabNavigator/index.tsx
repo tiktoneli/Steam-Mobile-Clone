@@ -11,11 +11,11 @@ import {
 const Tab = createBottomTabNavigator<RootTabParamList>();
 
 export type RootTabParamList = {
-	Home: {};
-	News: {};
-    Shield: {};
-    Bell: {};
-    Config: {};
+  Home: {};
+  News: {};
+  Shield: {};
+  Bell: {};
+  Config: {};
 };
 
 export function BottomTabRoutes() {

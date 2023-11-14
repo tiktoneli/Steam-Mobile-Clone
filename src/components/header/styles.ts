@@ -31,9 +31,9 @@ export const styles = StyleSheet.create({
     maxWidth: 50,
     height: 50,
     borderRadius: 2,
-    marginRight: 5,
+    marginRight: 5.5,
     flex: 1,
-    marginBottom: 55,
+    marginBottom: 50,
     alignSelf: "flex-end",
   },
 });

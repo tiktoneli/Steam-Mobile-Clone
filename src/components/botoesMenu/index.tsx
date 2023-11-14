@@ -105,19 +105,21 @@ export const BotoesMenu = () => {
           <Text style={styles.textDestaques}>Conversa</Text>
         </View>
       </View>
-      <View style={styles.containerMisc}>
-        <Ionicons name="md-megaphone" size={14} color="grey" />
-        <Text style={styles.textMisc}>
-          Enviar comentário sobre o aplicativo
-        </Text>
-      </View>
-      <View style={styles.containerMisc}>
-        <Entypo name="cog" size={14} color="grey" />
-        <Text style={styles.textMisc}>Configurações</Text>
-      </View>
-      <View style={styles.containerMisc}>
-        <FontAwesome name="question-circle" size={14} color="grey" />
-        <Text style={styles.textMisc}>Suporte</Text>
+      <View style={{alignContent:'flex-end', height:90 }}>
+        <View style={styles.containerMisc}>
+          <Ionicons name="md-megaphone" size={14} color="grey" />
+          <Text style={styles.textMisc}>
+            Enviar comentário sobre o aplicativo
+          </Text>
+        </View>
+        <View style={styles.containerMisc}>
+          <Entypo name="cog" size={14} color="grey" />
+          <Text style={styles.textMisc}>Configurações</Text>
+        </View>
+        <View style={styles.containerMisc}>
+          <FontAwesome name="question-circle" size={14} color="grey" />
+          <Text style={styles.textMisc}>Suporte</Text>
+        </View>
       </View>
     </View>
   );
