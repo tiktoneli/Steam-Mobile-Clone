@@ -8,14 +8,16 @@ import {
 import { styles } from "./styles";
 import { InputSearch } from "../inputSearch";
 import perfsteam from "../../../assets/perfsteam.png";
+import { AntDesign } from '@expo/vector-icons';
 
 export const Header = () => {
   return (
     <View style={styles.container}>
       <InputSearch />
       <View style={styles.botoesHeader}>
-        <TouchableOpacity>
-          <Text style={styles.textoBotoes}>MENU V</Text>
+        <TouchableOpacity style={{display:'flex', flexDirection:'row'}}>
+          <Text style={styles.textoBotoes}>MENU</Text>
+          <AntDesign style={{marginLeft:5, marginTop:3}} name="down" size={14} color="white" />
         </TouchableOpacity>
         <TouchableOpacity>
           <Text style={styles.textoBotoes}>LISTA DE DESEJOS</Text>

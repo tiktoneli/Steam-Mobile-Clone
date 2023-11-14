@@ -7,6 +7,7 @@ import {
   Octicons,
   Entypo,
   FontAwesome,
+  AntDesign,
 } from "@expo/vector-icons";
 import { styles } from "./styles";
 
@@ -27,7 +28,12 @@ export const BotoesMenu = () => {
           <Text style={styles.textWallet}>(R$0,00)</Text>
         </View>
         <View style={{ paddingRight: 20 }}>
-          <Text style={styles.textDestaques}>V</Text>
+          <AntDesign
+            style={{ marginTop: 5 }}
+            name="down"
+            size={16}
+            color="white"
+          />
         </View>
       </View>
       <View style={styles.container}>
@@ -83,7 +89,12 @@ export const BotoesMenu = () => {
           <Text style={styles.textDestaques}>Comunidade</Text>
         </View>
         <View style={{ paddingRight: 20 }}>
-          <Text style={styles.textDestaques}>V</Text>
+          <AntDesign
+            style={{ marginTop: 5 }}
+            name="down"
+            size={16}
+            color="white"
+          />
         </View>
       </View>
       <View style={styles.container}>
