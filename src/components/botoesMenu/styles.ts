@@ -15,6 +15,11 @@ export const styles = StyleSheet.create({
     justifyContent:'space-between',
     alignItems:'center',
   },
+  containerBody: {
+    borderBlockColor: "grey",
+    borderStyle: "solid",
+    height:565
+  },
   textDestaques: {
     paddingLeft: 15,
     padding: 0,
@@ -30,17 +35,14 @@ export const styles = StyleSheet.create({
     fontWeight: "400",
   },
   containerMisc: {
-    flex: 1,
     flexDirection: "row",
+    justifyContent:'flex-start',
     backgroundColor: "#292C33",
-    gap: 5,
-    padding: 9,
-    maxHeight: 60,
+    gap: 12,
+    padding: 8,
   },
   textMisc: {
-    paddingLeft: 5,
-    padding: 0,
-    fontSize: 12,
+    fontSize: 13,
     color: "white",
     fontWeight: "200",
   },

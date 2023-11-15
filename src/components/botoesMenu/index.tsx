@@ -1,5 +1,5 @@
 import React from "react";
-import { Text, View } from "react-native";
+import { ScrollView, Text, View } from "react-native";
 import {
   Ionicons,
   FontAwesome5,
@@ -13,10 +13,15 @@ import { styles } from "./styles";
 
 export const BotoesMenu = () => {
   return (
-    <View style={{ height: "85%" }}>
+    // <ScrollView>
+    <View style={styles.containerBody}>
       <View style={styles.container}>
         <View
-          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+          style={{
+            gap: 5,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
         >
           <Ionicons
             style={{ transform: [{ rotateY: "180deg" }] }}
@@ -38,7 +43,11 @@ export const BotoesMenu = () => {
       </View>
       <View style={styles.container}>
         <View
-          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+          style={{
+            gap: 5,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
         >
           <Ionicons
             style={{ transform: [{ scaleX: -1 }] }}
@@ -51,7 +60,11 @@ export const BotoesMenu = () => {
       </View>
       <View style={styles.container}>
         <View
-          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+          style={{
+            gap: 5,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
         >
           <Ionicons name="md-shield" size={20} color="white" />
           <Text style={styles.textDestaques}>Steam Guard</Text>
@@ -59,7 +72,11 @@ export const BotoesMenu = () => {
       </View>
       <View style={styles.container}>
         <View
-          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+          style={{
+            gap: 5,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
         >
           <Octicons name="bell-fill" size={20} color="white" />
           <Text style={styles.textDestaques}>Notificações</Text>
@@ -67,7 +84,11 @@ export const BotoesMenu = () => {
       </View>
       <View style={styles.container}>
         <View
-          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+          style={{
+            gap: 5,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
         >
           <MaterialIcons name="check" size={22} color="white" />
           <Text style={styles.textDestaques}>Confirmações</Text>
@@ -75,7 +96,11 @@ export const BotoesMenu = () => {
       </View>
       <View style={styles.container}>
         <View
-          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+          style={{
+            gap: 5,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
         >
           <MaterialIcons name="my-library-books" size={20} color="white" />
           <Text style={styles.textDestaques}>Biblioteca</Text>
@@ -83,7 +108,11 @@ export const BotoesMenu = () => {
       </View>
       <View style={styles.container}>
         <View
-          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+          style={{
+            gap: 5,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
         >
           <FontAwesome5 name="users" size={20} color="white" />
           <Text style={styles.textDestaques}>Comunidade</Text>
@@ -99,13 +128,17 @@ export const BotoesMenu = () => {
       </View>
       <View style={styles.container}>
         <View
-          style={{ gap: 5, flexDirection: "row", justifyContent: "flex-start" }}
+          style={{
+            gap: 5,
+            flexDirection: "row",
+            justifyContent: "flex-start",
+          }}
         >
           <Ionicons name="chatbubble-ellipses" size={20} color="white" />
           <Text style={styles.textDestaques}>Conversa</Text>
         </View>
       </View>
-      <View style={{alignContent:'flex-end', height:90 }}>
+      <View style={{ alignContent: "flex-end", height: 90 }}>
         <View style={styles.containerMisc}>
           <Ionicons name="md-megaphone" size={14} color="grey" />
           <Text style={styles.textMisc}>
@@ -122,5 +155,6 @@ export const BotoesMenu = () => {
         </View>
       </View>
     </View>
+    // </ScrollView>
   );
 };
