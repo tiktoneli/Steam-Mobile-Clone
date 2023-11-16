@@ -138,7 +138,7 @@ export const BotoesMenu = () => {
           <Text style={styles.textDestaques}>Conversa</Text>
         </View>
       </View>
-      <View style={{ alignContent: "flex-end", height: 90 }}>
+      <View style={{ alignContent: "flex-end", maxHeight: 100 }}>
         <View style={styles.containerMisc}>
           <Ionicons name="md-megaphone" size={14} color="grey" />
           <Text style={styles.textMisc}>

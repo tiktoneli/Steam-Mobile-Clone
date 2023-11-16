@@ -31,6 +31,7 @@ export function BottomTabRoutes() {
     >
       <Tab.Screen
         options={{
+          tabBarAccessibilityLabel:'Página inicial',
           tabBarIcon: ({ color }) => (
             <Ionicons
               style={{ transform: [{ rotateY: "180deg" }] }}
@@ -45,6 +46,7 @@ export function BottomTabRoutes() {
       />
       <Tab.Screen
         options={{
+          tabBarAccessibilityLabel:'Notícias',
           tabBarIcon: ({ color }) => (
             <MaterialCommunityIcons
               name="newspaper-variant-outline"
@@ -58,6 +60,7 @@ export function BottomTabRoutes() {
       />
       <Tab.Screen
         options={{
+          tabBarAccessibilityLabel:'Segurança',
           tabBarIcon: ({ color }) => (
             <Ionicons name="md-shield" size={30} color={color} />
           ),
@@ -67,6 +70,7 @@ export function BottomTabRoutes() {
       />
       <Tab.Screen
         options={{
+          tabBarAccessibilityLabel:'Notificações',
           tabBarIcon: ({ color }) => (
             <Octicons name="bell-fill" size={30} color={color} />
           ),
@@ -76,6 +80,7 @@ export function BottomTabRoutes() {
       />
       <Tab.Screen
         options={{
+          tabBarAccessibilityLabel:'Configurações',
           tabBarIcon: ({ color }) => (
             <Feather name="menu" size={35} color={color} />
           ),
